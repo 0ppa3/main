@@ -25,19 +25,6 @@ game:GetService("ReplicatedStorage").Remotes.Money:FireServer(unpack(args))
 
 game:GetService("ReplicatedStorage").Remotes.Money:FireServer(unpack(args))
 
-        local args = {
-    [1] = "Collect",
-    [2] = "100"
-}
-
-game:GetService("ReplicatedStorage").Remotes.Money:FireServer(unpack(args))
-
-        local args = {
-    [1] = "Collect",
-    [2] = "100"
-}
-
-game:GetService("ReplicatedStorage").Remotes.Money:FireServer(unpack(args))
         wait(0.00001)
     end
 end
