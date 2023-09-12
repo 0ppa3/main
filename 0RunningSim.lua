@@ -51,3 +51,12 @@ b:Toggle("Rebirth", function(bool)
         spawn(rb)
     end
 end)
+
+b:Button("Truck", function()
+    local args = {
+        [1] = "Add",
+        [2] = 13
+    }
+
+    game:GetService("ReplicatedStorage").Remotes.Item:FireServer(unpack(args))
+end)
